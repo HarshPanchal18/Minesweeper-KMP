@@ -41,12 +41,12 @@ fun CellWithIcon(src: String, alt: String) {
 
 @Composable
 fun Mine() {
-    CellWithIcon(src = "/assets/mine.png", alt = "Bomb")
+    CellWithIcon(src = "mine.png", alt = "Bomb")
 }
 
 @Composable
 fun Flag() {
-    CellWithIcon(src = "/assets/flag.png", alt = "Flag")
+    CellWithIcon(src = "flag.png", alt = "Flag")
 }
 
 @Composable

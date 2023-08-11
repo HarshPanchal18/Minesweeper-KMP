@@ -71,9 +71,9 @@ fun Game(requestWindowSize: ((width: Dp, height: Dp) -> Unit)? = null) = MainLay
         Row {
             Column {
                 val bombsLeft = max(game.bombs - game.flagsSet, 0)
-                IndicatorWithIcon("assets/clock.png", "Seconds", game.seconds)
+                IndicatorWithIcon("clock.png", "Seconds", game.seconds)
                 Box(modifier = Modifier.size(2.dp))
-                IndicatorWithIcon("assets/bomb.png", "Bombs Left", bombsLeft)
+                IndicatorWithIcon("bomb.png", "Bombs Left", bombsLeft)
             }
 
             Column(modifier = Modifier.padding(8.dp)) {
